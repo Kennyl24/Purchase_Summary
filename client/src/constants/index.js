@@ -1,1 +1,2 @@
-export const ADD_PROMO = "ADD_PROMO";
+export const ADD_PROMO = 'ADD_PROMO';
+
