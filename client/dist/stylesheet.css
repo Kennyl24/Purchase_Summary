@@ -1,0 +1,63 @@
+.line-break {
+  display: block;
+  height: 1px;
+  border-top: 1px solid rgb(142, 137, 137);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 6.5%;
+  margin-bottom: 5%
+}
+
+.summary-container{
+  margin-left: 40%;
+  width: 220px;
+  max-height: 500px;
+  border: solid rgb(187, 185, 185);
+  border-width: 1.5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  font-family: myriad-pro,BogleWeb,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.item-container{
+  padding-bottom:7%;
+  font-size: 16px;
+  vertical-align: top;
+}
+input{
+  height: 25px;
+}
+.pricing-details{
+  float: right;
+  margin-right: 2%;
+  font-weight: bold;
+}
+.button {
+  border-radius: 20px;
+  border: .75px solid rgb(10, 10, 10);
+  height: 30px;
+  margin-left: 5px;
+}
+
+.tooltip {
+  position: static;
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  padding: 20px;
+  font-size: 12px;
+  position: fixed;
+  margin-left: -60px;
+  border: .5px solid rgba(247, 247, 247, 0.611) ;
+  margin-top: 12px;
+  border-radius: 8px; 
+}
+.tooltip::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent rgba(247, 247, 247, 0.611) transparent;
+}
